@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    android:columnCount="4"
+    android:orientation="horizontal"
+    android:paddingEnd="15dp"
+    android:paddingStart="15dp"
+    android:paddingBottom="15dp"
+     >
+
+    <TextView
+        android:id="@+id/TextOperacion"
+        android:layout_width="342dp"
+        android:layout_height="80dp"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill"
+        android:layout_marginTop="30dp"
+        android:background="#FFFFFF"
+        android:gravity="center|right"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/TextResultado"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill"
+        android:layout_marginBottom="15dp"
+        android:background="#FFFFFF"
+        android:gravity="center|right"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_suma"
+        android:layout_width="85dp"
+        android:layout_height="90dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/suma_button"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/button_resta"
+        android:layout_width="85dp"
+        android:layout_height="90dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/resta_button"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/button_multiplicacion"
+        android:layout_width="85dp"
+        android:layout_height="90dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/multiplicacion_button"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/button_division"
+        android:layout_width="85dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/division_button"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/button_siete"
+        android:layout_width="85dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/siete_button"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_marginEnd="5dp"/>
+
+    <Button
+        android:id="@+id/button_ocho"
+        android:layout_width="85dp"
+        android:layout_height="90dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/ocho_button"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_marginEnd="5dp"/>
+
+    <Button
+        android:id="@+id/button_nueve"
+        android:layout_width="85dp"
+        android:layout_height="90dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/nueve_button"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_marginEnd="5dp"/>
+
+    <Button
+        android:id="@+id/button_borrar"
+        android:layout_width="85dp"
+        android:layout_height="90dp"
+        android:text="@string/borrar_button"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/button_cuatro"
+        android:layout_width="85dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/cuatro_button"
+        android:textColor="@color/black"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/button_cinco"
+        android:layout_width="85dp"
+        android:layout_height="90dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/cinco_button"
+        android:textColor="@color/black"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/button_seis"
+        android:layout_width="85dp"
+        android:layout_height="90dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/seis_button"
+        android:textColor="@color/black"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/button_borrarTodo"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:text="@string/borrarTodo_button"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/button_uno"
+        android:layout_width="85dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/uno_button"
+        android:textColor="@color/black"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/button_dos"
+        android:layout_width="85dp"
+        android:layout_height="90dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/dos_button"
+        android:textColor="@color/black"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/button_tres"
+        android:layout_width="85dp"
+        android:layout_height="90dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/tres_button"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_marginEnd="5dp"/>
+
+    <Button
+        android:id="@+id/button_igual"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_rowSpan="2"
+        android:layout_gravity="fill"
+        android:text="@string/igual_button"
+        android:textSize="24sp"/>
+
+
+    <Button
+        android:id="@+id/button_cero"
+        android:layout_height="90dp"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/cero_button"
+        android:textColor="@color/black"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/button_punto"
+        android:layout_width="85dp"
+        android:layout_height="90dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/punto_button"
+        android:textColor="@color/black"
+        android:textSize="24sp"/>
+
+</GridLayout>

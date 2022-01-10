@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="cero_button">0</string>
+    <string name="uno_button">1</string>
+    <string name="dos_button">2</string>
+    <string name="tres_button">3</string>
+    <string name="cuatro_button">4</string>
+    <string name="cinco_button">5</string>
+    <string name="seis_button">6</string>
+    <string name="siete_button">7</string>
+    <string name="ocho_button">8</string>
+    <string name="nueve_button">9</string>
+    <string name="suma_button">+</string>
+    <string name="resta_button">-</string>
+    <string name="multiplicacion_button">*</string>
+    <string name="division_button">/</string>
+    <string name="punto_button">.</string>
+    <string name="igual_button">=</string>
+    <string name="borrar_button">←</string>
+    <string name="borrarTodo_button">AC</string>
+</resources>
